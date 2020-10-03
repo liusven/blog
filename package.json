@@ -1,5 +1,8 @@
 {
   "scripts": {
     "index": "hugo-lunr"
+  },
+  "dependencies": {
+    "hugo-lunr-diaspora": "^1.0.0"
   }
 }
