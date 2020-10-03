@@ -1,0 +1,79 @@
+baseurl = "https://example.com"
+languageCode = "zh-CN"
+hasCJKLanguage = true
+title = "My hugoBlog"
+theme = "Diaspora"
+themesDir = "./themes/"
+
+# Define the number of posts per page
+paginate = 10
+
+disablePathToLower = true
+summaryLength = 50
+
+[params.iconshow]
+    category = true
+    series = false
+    tag = true
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[permalinks]
+    post = "/:year/:month/:day/:slug"
+
+[params]
+    # Tell me who you are
+    author = "hojun"
+    bio = "Blogger - Programmer - Gopher"
+    location = "Earth"
+    site_description = "hojun的hugo静态博客"
+    copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice)."
+    avatar = "css/images/avatar.png"
+    # Enter your email address to display your Gravatar icon in the profile. If not set the theme
+    # will fallback to the avatar.
+    gravatar = "you@example.com"
+    logo = "css/images/logo.png"
+    disable_mathjax = false # set to true to disable MathJax
+
+    # define which types of pages should be shown. By default the type with the most regular pages
+    mainSections = ["posts"]
+
+    # Format dates with Go's time formatting
+    date_format = "January 2, 2006"
+
+    # Add custom assets with their paths relative to the static folder
+  custom_css = []
+  custom_js  = []
+
+# Create custom menu entries by defining a label and a link for
+# them. Since you can also link posts, you've the option the
+# place the links before or after them.
+#
+# E.g.: "Home" appears before all linked posts in the menu
+# and "Tags" / "Categories" after them.
+[[params.menu]]
+    name   = "About"
+    link   = "/about/"
+    target = "_blank"
+[[params.menu]]
+    name   = "Links"
+    link   = "/links/"
+    target = ""
+[[params.menu]]
+    name   = "Archives"
+    link   = "/archives/"
+    target = ""
+[[params.menu]]
+    name   = "Categories"
+    link   = "/categories/"
+    target = ""
+[[params.menu]]
+    name   = "Tags"
+    link   = "/tags/"
+    target = ""
+
+[social]
+# TODO
