@@ -1,4 +1,4 @@
-baseurl = "https://example.com"
+baseurl = "https://liusven.github.io"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 title = "強風 | 立志成为像风一样的男子"
@@ -16,6 +16,7 @@ summaryLength = 50
     category = true
     series = false
     tag = true
+	
 
 [taxonomies]
   category = "categories"

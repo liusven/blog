@@ -23,7 +23,7 @@ if [ -n "$*" ]; then
 fi
 git commit -m "$msg"
 #合并仓库
-#git pull --rebase origin main
+git pull --rebase origin main
  
 # Push source and build repos.
 git push origin main
