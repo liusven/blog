@@ -4,6 +4,7 @@ hasCJKLanguage = true
 title = "My hugoBlog"
 theme = "Diaspora"
 themesDir = "./themes/"
+publishDir = "../public"
 
 # Define the number of posts per page
 paginate = 10
