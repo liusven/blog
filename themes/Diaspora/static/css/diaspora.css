@@ -114,7 +114,7 @@ body.mu .image-logo {background-color:black;}
 #loader {display:none;position:fixed;top:0;width:100%;height:3px;z-index:100;background-image:-webkit-linear-gradient(left,#F16F5C 0%,#F16F5C 12.5%,#5B56DD 12.5%,#5B56DD 25%,#E15CED 25%,#E15CED 37.5%,#27E559 37.5%,#27E559 50%,#18C8C9 50%,#18C8C9 62.5%,#DC8987 62.5%,#DC8987 75%,#BB83D6 75%,#BB83D6 87.5%,#E774BD 87.5%,#E774BD 100%);background-image:-moz-linear-gradient(left,#F16F5C 0%,#F16F5C 12.5%,#5B56DD 12.5%,#5B56DD 25%,#E15CED 25%,#E15CED 37.5%,#27E559 37.5%,#27E559 50%,#18C8C9 50%,#18C8C9 62.5%,#DC8987 62.5%,#DC8987 75%,#BB83D6 75%,#BB83D6 87.5%,#E774BD 87.5%,#E774BD 100%);}
 #top {height:50px;text-align:center;border-bottom:1px solid #f7f7f7;background:#fefefe;width:100%;position:fixed;top:0;z-index:10;display:none;}
 body.touch #top {position:relative;}
-.icon-icon {color:#333;font-size:20px;position:absolute;left:14px;top:16px;}
+.icon-prev {color:#333;font-size:20px;position:absolute;left:14px;top:16px;}
 .image-icon {-webkit-background-size:24px 24px;-moz-background-size:24px 24px;background-size:24px 24px;background-position:center center;background-repeat:no-repeat;width:24px;height:24px;position:absolute;left:14px;top:15px;color:#333;}
 .image-icon:hover {color:black;}
 .subtitle {color:#666;font-size:14px;margin-top:16px;display:none;}
@@ -356,9 +356,7 @@ pre .keyword,pre .javascript .function {color:#cc99cc;}
 .icon-left:before {
     content: "\e609";
 }
-.icon-icon:before {
-    content: "\e60e";
-}
+
 .icon-logo:before {
     content: "\e60d";
     /*display: block;
@@ -458,9 +456,6 @@ pre .keyword,pre .javascript .function {color:#cc99cc;}
   content: "\e62c";
 }
 
-.icon-icon-:before {
-  content: "\e721";
-}
 
 .icon-clouddownload-fill:before {
   content: "\e502";

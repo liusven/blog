@@ -1,16 +1,14 @@
 # Hugo-theme-diaspora
-## Port of WordPress theme diaspora to Hugo. [中文文档](https://github.com/honjun/hugo-theme-diaspora/REAAME-zn.md)
-Thanks to WordPress theme author @Loeify
+## Port of WordPress theme diaspora to Hugo. 
+<br>
+Thanks to WordPress theme author @Loeify<br>
+Thanks to Hugo-theme-diaspora shsre @honjun
 
 Preview: [demo](https://diaspora.hojun.cn/)
 ![](https://cdn.jsdelivr.net/gh/hojun2/hojun2.github.io/img/diaspora.jpg)
 
-## QQ group
-If you are a user, plus group QQ: 801511924
 
-If you are a creator, plus group QQ: 194472590
-
-##  Download and install
+## 1. Download and install
 Cd  < YOUR Bolg Root Dir to your blog root directory > 
 git clone git @ github.com:honjun/hugo-theme-diaspora.git themes/Diaspora
 ## use
@@ -144,7 +142,7 @@ keywords :
 description : 
 ---
 ```
-##  2019.6 Update.  Site search
+## 2. Site search. 2019.6 Update.  
 Thanks to lurr.js and hugo-lunr . This plugin is modified based on hugo-lunr and only adapts to the hugo-theme-diaspora theme. Other topics need to be modified. Install the plugin first (requires the npm tool to be installed)
 ```cmd
 npm i hugo-lunr-diaspora

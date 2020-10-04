@@ -1,29 +1,29 @@
-# hugo-theme-diaspora
-## 基于WordPress主题diaspora移植的Hugo主题 [英文文档](https://github.com/honjun/hugo-theme-diaspora/REAAME-zn.md)
-感谢WordPress主题作者[@Loeify](https://github.com/LoeiFy/Diaspora)
 
-预览：[demo](https://diaspora.hojun.cn/)
+# hugo-theme-diaspora
+## 基于WordPress主题diaspora移植的Hugo主题 
+<Br>
+感谢WordPress主题作者[@Loeify](https://github.com/LoeiFy/Diaspora)        
+感谢hojun的分享[@honjun](https://github.com/honjun)
+<Br><Br>
+预览：[demo](https://liuchiren.com/)
 ![](https://cdn.jsdelivr.net/gh/hojun2/hojun2.github.io/img/diaspora.jpg)
 
-## 交流群
-若你是使用者，加群QQ: 801511924
 
-若你是创作者，加群QQ: 194472590
+## 1.下载安装
+```cmd```<Br>
+```cd <YOUR Bolg Root Dir 到你博客根目录>```<Br>
+```git clone git@github.com:liusven/Diaspora.git``` <Br>
+themes/Diaspora（修改文件名称）
 
-## 下载安装
-```cmd
-cd <YOUR Bolg Root Dir 到你博客根目录>
-git clone git@github.com:honjun/hugo-theme-diaspora.git themes/Diaspora
-```
 
-## 使用
+## 2.使用
 
-直接把主题下的exampleSite里面的内容剪贴到根目录覆盖替换即可。
+把主题下的exampleSite里面的内容剪贴到根目录覆盖替换。
 
 ### 修改配置 只需修改改部分
 ```yml
 # 【改】 这里改你的博客网址
-baseurl = "https://hojun2.github.io"
+baseurl = "https://liusven.github.io"
 # 【不改】 语言设置中文 
 languageCode = "zh-CN"
 # 【不改】 如果使用了中文/日文/韩文语言。请设置为true，才能使.Summary和.WordCount正确执行
@@ -64,7 +64,7 @@ summaryLength = 50
     author = "hojun"
     bio = "Blogger - Programmer - Gopher"
     location = "Earth"
-    site_description = "hojun的hugo静态博客"
+    site_description = "Hopper的hugo静态博客"
     copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice)."
     avatar = "css/images/avatar.png"
     # Enter your email address to display your Gravatar icon in the profile. If not set the theme
@@ -151,7 +151,7 @@ description:
 ---
 ```
 
-## 2019.6.站内搜索
+## 2019.6新增站内搜索功能
 感谢[lunr.js](https://github.com/olivernn/lunr.js)和[hugo-lunr](https://github.com/dgrigg/hugo-lunr)。
 本插件基于hugo-lunr修改，仅适配hugo-theme-diaspora主题，其他主题需自行修改。
 先安装插件（需要安装npm工具）
