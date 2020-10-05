@@ -156,6 +156,14 @@ Then create a new package.json in the root of the blog, add the following conten
 }
 ```
 Finally, cd to the blog root directory to run the npm run indexgenerated lurr.json file can use the site search. Note that you need to update the lurr.json file after updating the article.
+## 3. icon
+icon-images：图片展示<br>
+icon-left：×<br>
+icon-menu：导航条<br>
+icon-like：❤<br>
+icon-font：AA<br>
+icon-zoom：45°双箭头<br>
+icon-prev：左返回<br>
 
 ## Ask the subject author for a cup of coffee
 ### Paypal
